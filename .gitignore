@@ -1,0 +1,12 @@
+# Ignorar pastas de build e artefatos
+build/
+dist/
+*.spec
+
+# Ignorar cache do Python
+__pycache__/
+*.pyc
+
+# Ignorar arquivos temporários do Windows
+Thumbs.db
+desktop.ini
