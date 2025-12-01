@@ -27,10 +27,10 @@ A aplicação:
 - Tudo isso em uma interface simples (estilo Prompt de Comando), facilitando auditorias rápidas.
 
 🧪 Exemplo de Execução
-Lendo arquivo portabilidade.txt…
-Total encontrado no arquivo: 12.345,67
-Informe o valor correto esperado: 12.345,67
-✔ A soma do arquivo confere com o valor informado.
+- Lendo arquivo portabilidade.txt…
+- Total encontrado no arquivo: 12.345,67
+- Informe o valor correto esperado: 12.345,67
+- ✔ A soma do arquivo confere com o valor informado.
 
 💼 Impacto no Negócio
 A ferramenta contribui diretamente para:
@@ -69,6 +69,7 @@ Via executável (.exe) -> Coloque o arquivo TXT na mesma pasta do .exe -> Execut
 Via Python (código fonte) pip install -r requirements.txt python main.py
 
 📂 Estrutura do Projeto
+
 vgbl-portabilidade-checker/
 ├── ajuste_portabilidade_saida.py
 ├── entradas/
@@ -82,5 +83,7 @@ vgbl-portabilidade-checker/
 - O conhecimento do domínio (SIDE, VGBL, arredondamentos e processos operacionais) foi aplicado manualmente.
 
 👤 Autor
+
 Arlindo Júnior Honorato
+
 Product Owner | IA Practitioner.
