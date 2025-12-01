@@ -1,7 +1,9 @@
 🧮 VGBL Portabilidade Checker
+
 Ferramenta em Python para validar e conferir a soma das contribuições em arquivos TXT utilizados no processo de Portabilidade de Saída de planos VGBL via plataforma SIDE.
 
 📌 Problema
+
 No processo de portabilidade entre entidades previdenciárias, o valor total das contribuições é gerado em um arquivo .txt padronizado conforme regras da plataforma SIDE.
 
 Porém:
@@ -41,11 +43,17 @@ A ferramenta contribui diretamente para:
 - Uma automação pequena, mas com impacto real no dia a dia operacional.
 
 ⚙️ Funcionalidades
+
 ✔ Leitura automática de arquivos TXT no padrão SIDE
+
 ✔ Soma precisa das contribuições
+
 ✔ Comparação do valor interno × valor informado
+
 ✔ Validação final antes do envio à instituição financeira
+
 ✔ Interface simples e direta (CLI)
+
 ✔ Versão compilada em .exe (opcional)
 
 🛠 Tecnologias Utilizadas
@@ -54,20 +62,10 @@ A ferramenta contribui diretamente para:
 - PyInstaller (para geração opcional de executável)
 - IA generativa como apoio no desenvolvimento
 
-🗺 Roadmap / Próximas Evoluções
-
- Seleção de arquivo via interface gráfica
-
- Validação de múltiplos arquivos em lote
-
- Geração de relatório CSV com detalhamento das linhas
-
- Interface gráfica simples (Tkinter ou similar)
-
- Testes automatizados para garantir consistência
-
 🖥️ Como usar
+
 Via executável (.exe) -> Coloque o arquivo TXT na mesma pasta do .exe -> Execute o programa -> Informe o valor correto quando solicitado -> Veja a validação final.
+
 Via Python (código fonte) pip install -r requirements.txt python main.py
 
 📂 Estrutura do Projeto
