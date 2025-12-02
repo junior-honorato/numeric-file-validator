@@ -1,6 +1,6 @@
 🧮 VGBL Portabilidade Checker
 
-Ferramenta em Python para validar e conferir a soma das contribuições em arquivos TXT utilizados no processo de Portabilidade de Saída de planos VGBL via plataforma SIDE.
+Ferramenta em Python para validar automaticamente a soma de valores em arquivos TXT, garantindo consistência antes de etapas importantes de um processo.
 
 📌 Problema
 
